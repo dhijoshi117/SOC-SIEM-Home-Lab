@@ -1,0 +1,22 @@
+
+<!-- Custom Wazuh detection rule -->
+<!-- Lab 2: System Owner/User Discovery -->
+<!-- MITRE ATT&CK: T1033 -->
+
+<group name="local,sysmon,">
+
+  <rule id="100100" level="5">
+    <if_sid>61603</if_sid>
+
+    <field name="win.eventdata.image" type="pcre2">(?i)whoami\.exe$</field>
+
+    <description>SOC Lab: whoami.exe process execution detected</description>
+
+    <mitre>
+      <id>T1033</id>
+    </mitre>
+
+    <group>soc_lab,discovery,</group>
+  </rule>
+
+</group>
