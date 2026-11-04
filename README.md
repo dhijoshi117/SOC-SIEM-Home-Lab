@@ -10,6 +10,23 @@ Built using **Wazuh SIEM, Windows 11, Sysmon, and Ubuntu Server**, this project 
 
 ## Lab Architecture
 
+### Architecture Diagram
+
+```mermaid
+flowchart TB
+    HOST["Apple Silicon MacBook<br/>UTM Hypervisor"]
+
+    subgraph LAB["SOC Virtual Lab"]
+        WIN["Windows 11 ARM64<br/>192.168.64.2<br/>Sysmon + Wazuh Agent"]
+        SIEM["Ubuntu ARM64<br/>192.168.64.3<br/>Wazuh Manager + Indexer + Dashboard"]
+    end
+
+    HOST --> LAB
+    WIN -->|"Sysmon Event Logs via Wazuh Agent"| SIEM
+    SIEM -->|"Alerts and Investigations"| DASH["Wazuh Threat Hunting Dashboard"]
+```
+
+
 | Component | Technology | Purpose |
 |---|---|---|
 | Host Machine | Apple Silicon macOS | Virtualization host |
