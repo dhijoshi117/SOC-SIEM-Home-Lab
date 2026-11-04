@@ -92,6 +92,17 @@ Sysmon records endpoint activity, including process creation events. The Wazuh a
 
 **Skills:** Account discovery analysis, endpoint telemetry investigation, alert classification.
 
+## Investigation Reports & Evidence
+
+| Investigation | Detection | Evidence | Report |
+|---|---|---|---|
+| Lab 2 — User Discovery | Custom Wazuh Rule 100100 | [Alert Screenshot](lab2-whoami-alert.png) | [Investigation 01](investigations/01-whoami-discovery.md) |
+| Lab 3 — Account Enumeration | Built-in Wazuh Rule 92031 | [Alert Screenshot](lab3-account-enumeration-alert.png) | [Investigation 02](investigations/02-account-enumeration.md) |
+
+### Custom Detection Rules
+
+- [Whoami Execution Detection — Rule 100100](detection-rules/whoami-detection.xml)
+
 ## Security Skills Demonstrated
 
 - SIEM deployment and configuration
