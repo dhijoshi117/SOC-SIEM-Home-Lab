@@ -174,10 +174,10 @@ Developed custom Rule `100104` to detect the test service display name.
 | Lab 3 — Account Enumeration | [Screenshot](lab3-account-enumeration-alert.png) | [Report](investigations/02-account-enumeration.md) |
 | Lab 4 — Privileged Group Discovery | [Screenshot](lab4-privileged-group-alert.png) | [Report](investigations/03-privileged-group-discovery.md) |
 | Lab 5 — Encoded PowerShell | [Screenshot](lab5-encoded-powershell-alert.png) | [Report](investigations/04-encoded-powershell.md) |
-| Lab 6 — Failed Authentication | [Screenshot](lab6-failed-login-alert.png) | [Report](investigations/05-failed-authentication.md) |
+| Lab 6 — Failed Authentication | [Screenshot](lab6-failed-login-alert.png) | [Report](investigations/05-failed-login-authentication.md) |
 | Lab 7 — Renamed Executable | [Screenshot](lab7-renamed-executable-alert.png) | [Report](investigations/06-renamed-executable.md) |
-| Lab 8 — PowerShell Web Request | [Screenshot](lab8-powershell-download-alert.png) | [Report](investigations/07-powershell-web-download.md) |
-| Lab 9 — Scheduled Task Creation | [Screenshot](lab9-scheduled-task-alert.png) | [Report](investigations/08-scheduled-task-creation.md) |
+| Lab 8 — PowerShell Web Request | [Screenshot](lab8-powershell-download-alert.png) | [Report](investigations/07-powershell-download.md) |
+| Lab 9 — Scheduled Task Creation | [Screenshot](lab9-scheduled-task-alert.png) | [Report](investigations/08-scheduled-task-persistence.md) |
 | Lab 10 — Windows Service Installation | [Screenshot](lab10-windows-service-installation-alert.png) | [Report](investigations/09-windows-service-installation.md) |
 
 ## Custom Detection Engineering
