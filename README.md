@@ -176,7 +176,7 @@ Developed custom Rule `100104` to detect the test service display name.
 | Lab 5 — Encoded PowerShell | [Screenshot](lab5-encoded-powershell-alert.png) | [Report](investigations/04-encoded-powershell.md) |
 | Lab 6 — Failed Authentication | [Screenshot](lab6-failed-login-alert.png) | [Report](investigations/05-failed-authentication.md) |
 | Lab 7 — Renamed Executable | [Screenshot](lab7-renamed-executable-alert.png) | [Report](investigations/06-renamed-executable.md) |
-| Lab 8 — PowerShell Web Request | [Screenshot](lab8-powershell-web-download-alert.png) | [Report](investigations/07-powershell-web-download.md) |
+| Lab 8 — PowerShell Web Request | [Screenshot](lab8-powershell-download-alert.png) | [Report](investigations/07-powershell-web-download.md) |
 | Lab 9 — Scheduled Task Creation | [Screenshot](lab9-scheduled-task-alert.png) | [Report](investigations/08-scheduled-task-creation.md) |
 | Lab 10 — Windows Service Installation | [Screenshot](lab10-windows-service-installation-alert.png) | [Report](investigations/09-windows-service-installation.md) |
 
